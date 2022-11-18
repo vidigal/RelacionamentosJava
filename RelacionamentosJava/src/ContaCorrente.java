@@ -1,5 +1,6 @@
 public class ContaCorrente {
 
+    private String agencia;
     private String numero;
     private Cliente cliente;
 
@@ -17,5 +18,13 @@ public class ContaCorrente {
 
     public void setCliente(Cliente cliente) {
         this.cliente = cliente;
+    }
+
+    public String getAgencia() {
+        return agencia;
+    }
+
+    public void setAgencia(String agencia) {
+        this.agencia = agencia;
     }
 }
